@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(139, 139, 55, 0.181);
+    padding: 20px;
+    font-family: Georgia, serif;
+
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+.title hr{
+    height: 2px;
+    background-color: black;
+}
+article {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 2px solid black;
+  line-height: 1.6;
+}
+.quote {
+  column-span: all;
+  break-inside: avoid;
+  margin: 40px 0;
+  padding: 25px;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.article-heading h3{
+    font-size: 30px;
+}
